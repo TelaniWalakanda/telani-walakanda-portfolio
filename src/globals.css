@@ -1,0 +1,7 @@
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  min-height: 100vh;
+}
