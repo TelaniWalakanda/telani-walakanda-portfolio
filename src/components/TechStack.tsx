@@ -4,7 +4,7 @@ import './TechStack.css';
 const skills = {
     Languages: ["Java", "TypeScript", "JavaScript", "HTML/CSS", "SQL"],
     Frontend: ["React", "Next.js", "Angular 13", "Redux", "Tailwind CSS"],
-    Backend: ["Node.js", "NestJS", "Spring Boot", "Express", "REST APIs"],
+    Backend: ["Node.js", "NestJS", "Spring Boot", "Java", "REST APIs"],
     "Cloud & Tools": ["AWS (EC2, S3, SNS, SQS)", "PostgreSQL", "Docker", "Git/GitHub", "Jira/Agile"]
 };
 
