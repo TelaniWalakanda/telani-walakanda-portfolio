@@ -4,24 +4,38 @@ import './Projects.css';
 const projects = [
     {
         title: "CBAT (UK Healthcare)",
-        type: "Enterprise Application",
-        description: "Full-stack ownership of an enterprise-level healthcare application. Implemented robust AWS SNS/SQS workflows and seamless NestJS with PostgreSQL integration.",
-        techStack: ["Next.js", "NestJS", "PostgreSQL", "AWS SNS", "AWS SQS"],
-        link: "#",
-    },
-    {
-        title: "AS2 & MFT Gateway",
-        type: "B2B Security Solution",
-        description: "Developed a secure gateway for enterprise file exchange. Implemented S/MIME encryption, digital signing, and secure B2B protocols to ensure data integrity.",
-        techStack: ["Java", "Spring Boot", "S/MIME", "Cryptography"],
-        link: "#",
+        type: "Healthcare Assessment Platform",
+        description: "Served as the main full-stack developer for 6 months, delivering complete features across frontend and backend with secure file handling and notification workflows.",
+        techStack: ["Next.js", "Redux", "TypeScript", "Tailwind CSS", "NestJS", "TypeORM", "PostgreSQL", "AWS SNS", "AWS SQS", "AWS S3"],
+        link: "",
     },
     {
         title: "DxDy Official Website",
-        type: "Corporate Portal",
-        description: "Led the end-to-end technical implementation and production release of the official company portal, optimizing for performance and SEO.",
-        techStack: ["React", "Next.js", "Tailwind CSS", "Vercel"],
-        link: "#",
+        type: "Corporate Website",
+        description: "Led end-to-end technical implementation from architecture setup to production release, including deployment lifecycle and environment configuration.",
+        techStack: ["Next.js", "Redux", "TypeScript", "NestJS", "TypeORM", "PostgreSQL"],
+        link: "",
+    },
+    {
+        title: "AS2 & MFT Gateway",
+        type: "Enterprise Secure File Exchange",
+        description: "Contributed to protocol-based B2B integration with S/MIME encryption, digital signing, message validation, and secure authentication flows.",
+        techStack: ["Angular 13", "Java", "Spring Boot", "Node.js", "BouncyCastle", "AWS", "DynamoDB", "Bitbucket"],
+        link: "",
+    },
+    {
+        title: "Support Tracker",
+        type: "Customer Ticketing Platform",
+        description: "Developed complete admin management modules and integrated frontend with backend systems, including secure real-time synchronization workflows.",
+        techStack: ["Angular 13", "Material UI", "Java", "Spring Boot", "Firebase", "HTML5"],
+        link: "",
+    },
+    {
+        title: "Ayurdi Ayurveda",
+        type: "Personal Production Project",
+        description: "Designed and implemented a responsive production website with reusable components, scalable routing, and ongoing maintenance.",
+        techStack: ["Next.js", "TypeScript", "NextUI", "Tailwind CSS", "Firebase"],
+        link: "https://ayurdiayurveda.com",
     }
 ];
 
@@ -44,10 +58,14 @@ const Projects: React.FC = () => {
                             </div>
                         </div>
 
-                        <a href={project.link} className="project-link" aria-label={`View ${project.title}`}>
-                            View Details
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                        </a>
+                        {project.link ? (
+                            <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link" aria-label={`View ${project.title}`}>
+                                View Live Project
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                            </a>
+                        ) : (
+                            <span className="project-link project-link-muted">Case Study Available On Request</span>
+                        )}
                     </div>
                 ))}
             </div>

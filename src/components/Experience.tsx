@@ -5,23 +5,28 @@ const experiences = [
     {
         role: "Associate Software Engineer",
         company: "DxDy Digital",
-        period: "Feb 2024 - Present",
-        description: "Developing scalable enterprise applications and leading technical implementations. Utilizing Next.js, React, NestJS, and AWS.",
-        highlights: ["End-to-end technical leadership", "Production releases", "Cloud infrastructure optimization"]
+        period: "Feb 2023 - Aug 2025",
+        description: "Developed and maintained scalable full-stack applications across enterprise and healthcare domains, contributing to both frontend and backend delivery in Agile teams.",
+        highlights: [
+            "Next.js + NestJS + PostgreSQL full-stack development",
+            "UK healthcare assessment platform delivery",
+            "API integration and production deployments",
+            "WordPress CMS solutions (PHP, Timber Twig)",
+            "Cross-functional collaboration in Agile/Scrum"
+        ]
     },
     {
-        role: "Software Engineer",
-        company: "DxDy Digital",
-        period: "Nov 2022 - Feb 2024",
-        description: "Built and maintained full-stack web applications. Key contributions to enterprise-grade UK/US projects focusing on performance and security.",
-        highlights: ["Next.js/React frontend development", "Node.js RESTful APIs", "Database schema design (PostgreSQL)"]
-    },
-    {
-        role: "Software Engineering Intern",
+        role: "Software Engineer Intern",
         company: "Adroitlogic",
-        period: "Oct 2021 - Apr 2022",
-        description: "Assisted in enterprise integration solutions. Gained hands-on experience with Java, Spring Boot, and B2B file exchange protocols.",
-        highlights: ["API integration", "Unit testing", "Agile methodologies"]
+        period: "Jun 2022 - Dec 2022",
+        description: "Contributed to frontend and backend development for enterprise integration products, including secure B2B file exchange and internal support tooling.",
+        highlights: [
+            "Admin dashboard modules for Support Tracker",
+            "AS2 and MFT Gateway implementation support",
+            "Secure data transfer workflows",
+            "Basic Authentication integration",
+            "Angular, Spring Boot, Java, and Node.js"
+        ]
     }
 ];
 

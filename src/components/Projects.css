@@ -107,6 +107,12 @@
     transition: background-color 0.2s ease, color 0.2s ease;
 }
 
+.project-link-muted {
+    justify-content: center;
+    color: var(--text-muted);
+    cursor: default;
+}
+
 .project-card:hover .project-link {
     background-color: rgba(0, 112, 243, 0.05);
     color: var(--accent-blue);
