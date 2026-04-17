@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
           Hi, I'm Telani Walakanda. I specialize in crafting robust applications with Next.js, NestJS, and AWS. Over 3+ years of experience transforming complex requirements into seamless digital experiences.
         </p>
         <div className="hero-cta-group">
-          <a href={`${import.meta.env.BASE_URL}TelaniWalakanda_CV.pdf`} download="Telani_Walakanda_CV.pdf" className="btn btn-primary">Download CV</a>
+          <a href={`${import.meta.env.BASE_URL}TelaniWalakanda_CV.pdf`} download="TelaniWalakanda_CV.pdf" className="btn btn-primary">Download CV</a>
           <a href="#projects" className="btn btn-secondary">View Work</a>
         </div>
         <div className="hero-socials">
