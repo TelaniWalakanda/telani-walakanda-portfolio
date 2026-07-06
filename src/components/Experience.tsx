@@ -3,7 +3,7 @@ import './Experience.css';
 
 const experiences = [
     {
-        role: "Associate Software Engineer",
+        role: "Software Engineer",
         company: "DxDy Digital",
         period: "Feb 2023 - Aug 2025",
         description: "Developed and maintained scalable full-stack applications across enterprise and healthcare domains, contributing to both frontend and backend delivery in Agile teams.",
